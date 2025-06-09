@@ -11,7 +11,7 @@ import SwiftUI
 struct GalleryVisionOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().background(.black.opacity(0.8))
         }
     }
 }
